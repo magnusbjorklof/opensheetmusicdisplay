@@ -1,0 +1,34 @@
+Compared:
+  blessed: detached HEAD (2.2.1-4-g6cec7dc4) 6cec7dc4 + uncommitted changes in 1 file(s), generated 2026-10-16 02:40:38
+    fix(Clefs): Draw a clef change in the middle of a measure also when its staff has no note at its time, e.g. when its voice continues on the other staff or after a `<backup>` into a note: it was lost, and the following notes were drawn in the old clef (#1836)
+
+  current: codex/hairpin-endpoint-collisions-20261016 5c0671a1 + uncommitted changes in 2 file(s), generated 2026-10-16 02:59:20
+    fix(Dynamics): respect wedge stop positions and avoid dynamic collisions
+
+26 changed sample(s):
+  CharlesGounod_Meditation.xml_1: 27524160 px [dimensions differ: 1440x19111 -> 1440x19114]
+  JosephHaydn_ConcertanteCello.xml_1: 9862560 px [dimensions differ: 1440x6823 -> 1440x6849]
+  test_slurs_long_steep_arc_moonlight_sonata_issue1466.musicxml_1: 8808480 px [dimensions differ: 1440x6114 -> 1440x6117]
+  ScottJoplin_The_Entertainer.xml_1: 6985440 px [dimensions differ: 1440x4851 -> 1440x4795]
+  ActorPreludeSample.xml_1: 4960824 px (10.5137%) region x50-1390 y4302-32766
+  Dichterliebe01.xml_1: 3998880 px [dimensions differ: 1440x2777 -> 1440x2772]
+  Beethoven_AnDieFerneGeliebte.xml_1: 1992960 px [dimensions differ: 1440x1383 -> 1440x1384]
+  Beethoven_AnDieFerneGeliebte.xml_bboxVexFlowGraphicalNote_1: 1992960 px [dimensions differ: 1440x1383 -> 1440x1384]
+  Beethoven_AnDieFerneGeliebte.xml_skybottomline_1: 1992960 px [dimensions differ: 1440x1383 -> 1440x1384]
+  OSMD_function_test_measuresToDraw_Beethoven_AnDieFerneGeliebte.xml_1: 848160 px [dimensions differ: 1440x588 -> 1440x589]
+  test_wedges_layered.musicxml_1: 789120 px [dimensions differ: 1440x541 -> 1440x548]
+  test_clef_end_measure.musicxml_1: 722880 px [dimensions differ: 1440x501 -> 1440x502]
+  test_wedge_stop_before_note.musicxml_1: 676800 px [dimensions differ: 1440x470 -> 1440x467]
+  OSMD_function_test_expressions.musicxml_1: 619200 px [dimensions differ: 1440x430 -> 1440x417]
+  test_slurs_long_steep_arc_flattening_chopin.musicxml_1: 564480 px [dimensions differ: 1440x388 -> 1440x392]
+  OSMD_function_test_expressions_overlap.musicxml_1: 541440 px [dimensions differ: 1440x376 -> 1440x366]
+  Debussy_Mandoline.xml_1: 5774 px (0.2783%) region x140-1377 y367-844
+  test_wedge_overlap_1477.musicxml_1: 3941 px (0.4283%) region x435-1211 y253-398
+  test_direction_several_direction_types.musicxml_1: 2678 px (0.4569%) region x267-760 y259-291
+  test_wedge_offset_1477.musicxml_1: 1785 px (0.3076%) region x287-1099 y250-292
+  Schubert_An_die_Musik.xml_1: 1511 px (0.0516%) region x187-429 y1502-1517
+  test_wedge_decrescendo_crescendo_stop_start.musicxml_1: 1051 px (0.2140%) region x186-412 y150-162
+  test_dynamics_alignment_verbal.musicxml_1: 789 px (0.1333%) region x318-363 y252-300
+  test_wedge_cresc_dim_simultaneous_quartet.musicxml_1: 783 px (0.0893%) region x235-401 y429-441
+  test_octaveshift_chord_symbols_dynamics_words.musicxml_1: 488 px (0.0667%) region x421-525 y384-396
+  test_direction_dynamics_after_words_and_wedge.musicxml_1: 479 px (0.0929%) region x246-401 y216-229
